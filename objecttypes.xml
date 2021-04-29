@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="Apple" color="#22a41b">
+  <property name="expired" type="bool" default="false"/>
+ </objecttype>
+ <objecttype name="Ennemy" color="#a40f0f">
+  <property name="level" type="int" default="1"/>
+  <property name="life" type="float" default="100"/>
+ </objecttype>
+ <objecttype name="PlayerStart" color="#fff12b">
+  <property name="name" type="string" default="???"/>
+  <property name="spells" type="file" default="spells.xml"/>
+ </objecttype>
+</objecttypes>
